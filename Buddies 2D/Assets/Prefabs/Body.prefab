@@ -159,7 +159,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   movementSpeed: 10
-  jump: 5
+  jump: 5.5
   extraJumpValue: 0
   groundCheck: {fileID: 6197696385060247130}
   checkRadius: 0.1
@@ -178,7 +178,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6332457c9b7c2be46a669f1854334588, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  NextScene: 
   mind: {fileID: 0}
+  playerType: 0
 --- !u!1 &4928922461713852101
 GameObject:
   m_ObjectHideFlags: 0
